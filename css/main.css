@@ -491,8 +491,7 @@
     line-height: 50px;
 }
 .l-nav__link--a:hover {
-    color: blue;
-    background-color: #FF6739;
+    background-color: #ffe43a;
 }
 .l-nav__showBtn {
     position: absolute;
@@ -523,6 +522,7 @@
         background-color: transparent;
     }
     .l-nav__link--a:hover {
+        color:#00cec8;
         background-color: transparent;
     }
     .l-nav__link--item {
