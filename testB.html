@@ -15,9 +15,26 @@
 </head>
 <body>
     <!-- 頭部 -->
-    <div class="headerPage"></div>
+    <header>
+        <div class="l-container">
+            <div class="l-main l-main__header ">
+                <nav class="l-header">
+                    <div class="l-nav clearFix">
+                        
+                        <h1 class="l-nav__logo"><a class="l-nav__logo--a" href="index.html">Yi-Lin薏琳作品集</a></h1>
+            
+                        <ul class="l-nav__link">
+                            <li class="l-nav__link--item"><a class="l-text l-nav__link--a" href="index.html">首頁</a></li>
+                            <li class="l-nav__link--item"><a class="l-text l-nav__link--a" href="about.html">關於我</a></li>
+                        </ul>
+                        <a href="#" class="l-nav__showBtn"><img src="images/icon_menu.png" alt=""></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
     
-    <!-- 內容實驗 -->
     <main class="l-container">
         <section class="l-main">
             <!-- 背景 -->
@@ -34,7 +51,7 @@
             <!-- part.2測驗頁 -->
             <section class="l-wrap">
                 <div class="testB">
-                    <form action="pure-form" id="pure-formB">
+                    <form id="pure-formB">
                         <div class="l-card testB__style">
                             <p class="l-text l-text__subTitle">Part.2 請勾選符合您的敘述(單選)</p>
                             <div class="l-inputList">
@@ -45,20 +62,20 @@
                                             1.如果第二天沒有事情要做，可以讓自己想睡多久就睡多久，你會何時起床？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB1-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB1-1" type="radio" name="option1" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option1" value="1">
                                                 上午六點半以前
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB1-2" class="pure-radio l-text l-text__left">
-                                                <input id="ttestB1-2" type="radio" name="option1" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option1" value="2">
                                                 上午六點半至八點四十五分之間
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB1-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB1-3" type="radio" name="option1" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option1" value="3">
                                                 上午八點四十五分之後
                                             </label>
                                         </li>   
@@ -70,20 +87,20 @@
                                             2.如果必須在某個時間之前起床，你會用鬧鐘嗎？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB2-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB2-1" type="radio" name="option2" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option2" value="1">
                                                 不需要。你會自動在那個時間醒來
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB2-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB2-2" type="radio" name="option2" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option2" value="2">
                                                 會用鬧鐘，不設貪睡提醒，或者按一次
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB2-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB2-3" type="radio" name="option2" value="3">
+                                            <label  class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option2" value="3">
                                                 會用鬧鐘，還會設一個備用的，而且設很多個貪睡提醒
                                             </label>
                                         </li>   
@@ -94,20 +111,20 @@
                                             3.你週末都什麼時間起床？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB3-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB3-1" type="radio" name="option3" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option3" value="1">
                                                 和週間作息一樣
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB3-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB3-2" type="radio" name="option3" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option3" value="2">
                                                 和週間作息相差四十五至九十分鐘之內
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB3-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB3-3" type="radio" name="option3" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option3" value="3">
                                                 超過週間作息九十分鐘以上
                                             </label>
                                         </li>   
@@ -118,20 +135,20 @@
                                             4.你有時差時會如何？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB4-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB4-1" type="radio" name="option4" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option4" value="1">
                                                 無論如何都很難調
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB4-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB4-2" type="radio" name="option4" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option4" value="2">
                                                 四十八小時內適應
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB4-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB4-3" type="radio" name="option4" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option4" value="3">
                                                 很快調回來，向西邊走的時候尤其如此
                                             </label>
                                         </li>   
@@ -142,20 +159,20 @@
                                             5.最喜歡哪一餐？（指的是一天中的時間，而不是菜色)
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB5-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB5-1" type="radio" name="option5" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option5" value="1">
                                                 早餐
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB5-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB5-2" type="radio" name="option5" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option5" value="2">
                                                 午餐
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB5-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB5-3" type="radio" name="option5" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option5" value="3">
                                                 晚餐
                                             </label>
                                         </li>   
@@ -166,20 +183,20 @@
                                             6.如果回到高中時代重考學測，你偏好何時開始考試，這樣精神才最專注集中（而非只是趕快考完）
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB6-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB6-1" type="radio" name="option6" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option6" value="1">
                                                 一大早
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB6-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB6-2" type="radio" name="option6" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option6" value="2">
                                                 下午一兩點
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB6-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB6-3" type="radio" name="option6" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option6" value="3">
                                                 下午三點左右
                                             </label>
                                         </li>   
@@ -190,20 +207,20 @@
                                             7.如果一天當中要選一個時段劇烈運動，你會何時進行？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB7-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB7-1" type="radio" name="option7" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option7" value="1">
                                                 早上八點以前
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB7-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB7-2" type="radio" name="option7" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option7" value="2">
                                                 早上八點到下午四點之間
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB7-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB7-3" type="radio" name="option7" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option7" value="3">
                                                 下午四點以後
                                             </label>
                                         </li>   
@@ -214,20 +231,20 @@
                                             8.你精神最好的時間是何時？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB8-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB8-1" type="radio" name="option8" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option8" value="1">
                                                 睡醒後一到兩個小時
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB8-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB8-2" type="radio" name="option8" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option8" value="2">
                                                 睡醒後二到四個小時
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB8-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB8-3" type="radio" name="option8" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option8" value="3">
                                                 睡醒後四到六個小時
                                             </label>
                                         </li>   
@@ -238,20 +255,20 @@
                                             9.如果一天上班五小時，可以自行選擇上班時間，你會選擇哪個時段？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB9-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB9-1" type="radio" name="option9" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option9" value="1">
                                                 上午四點到九點
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB9-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB9-2" type="radio" name="option9" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option9" value="2">
                                                 上午九點到下午兩點
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB9-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB9-3" type="radio" name="option9" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option9" value="3">
                                                 下午四點到九點
                                             </label>
                                         </li>   
@@ -262,20 +279,20 @@
                                             10.你認為自己是......？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB10-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB10-1" type="radio" name="option10" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option10" value="1">
                                                 左腦型，也就是擅長策略、分析型的思考
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB10-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB10-2" type="radio" name="option10" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option10" value="2">
                                                 平衡思考型
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB10-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB10-3" type="radio" name="option10" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option10" value="3">
                                                 右腦型，也就是擅長創意、洞察式的思考
                                             </label>
                                         </li>   
@@ -286,20 +303,20 @@
                                             11.你有小睡的習慣嗎？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB11-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB11-1" type="radio" name="option11" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option11" value="1">
                                                 從來沒有
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB11-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB11-2" type="radio" name="option11" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option11" value="2">
                                                 週末偶爾
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB11-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB11-3" type="radio" name="option11" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option11" value="3">
                                                 如果小睡，就會整晚睡不著
                                             </label>
                                         </li>   
@@ -310,20 +327,20 @@
                                             12.如果要進行兩小時的粗重勞力活動，比如搬動家具或是砍樹，你會選擇何時進行，最有效率也最安全（而不只是做完而已）？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB12-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB12-1" type="radio" name="option12" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option12" value="1">
                                                 上午八點到十點
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB12-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB12-2" type="radio" name="option12" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option12" value="2">
                                                 上午九點到下午一點
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB12-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB12-3" type="radio" name="option12" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option12" value="3">
                                                 下午六點到八點
                                             </label>
                                         </li>   
@@ -334,19 +351,19 @@
                                             13.你的整體健康狀逛較符合以下哪句話？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB13-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB13-1" type="radio" name="option13" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option13" value="1">
                                                 幾乎任何時候都會做有益健康的選擇
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB13-2" class="pure-radio l-text l-text__left">
+                                            <label class="pure-radio l-text l-text__left">
                                                 <input id="testB13-2" type="radio" name="option13" value="2">
                                                 偶爾會做有益健康的選擇
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB13-3" class="pure-radio l-text l-text__left">
+                                            <label class="pure-radio l-text l-text__left">
                                                 <input id="testB13-3" type="radio" name="option13" value="3">
                                                 很難做出有益健康的選擇
                                             </label>
@@ -358,19 +375,19 @@
                                             14.你對冒險的接受度為何？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB14-1" class="pure-radio l-text l-text__left">
+                                            <label class="pure-radio l-text l-text__left">
                                                 <input id="testB14-1" type="radio" name="option14" value="1">
                                                 低
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB14-2" class="pure-radio l-text l-text__left">
+                                            <label class="pure-radio l-text l-text__left">
                                                 <input id="testB14-2" type="radio" name="option14" value="2">
                                                 中
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB14-3" class="pure-radio l-text l-text__left">
+                                            <label class="pure-radio l-text l-text__left">
                                                 <input id="testB14-3" type="radio" name="option14" value="3">
                                                 高
                                             </label>
@@ -382,20 +399,20 @@
                                             15.你認為自己：
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB15-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB15-1" type="radio" name="option15" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option15" value="1">
                                                 著眼未來、計畫宏大、目標清楚
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB15-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB15-2" type="radio" name="option15" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option15" value="2">
                                                 以過去為鑑，對未來懷抱希望，期許活在當下
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB15-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB15-3" type="radio" name="option15" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option15" value="3">
                                                 著眼當下，現在感覺對了最重要
                                             </label>
                                         </li>   
@@ -406,20 +423,20 @@
                                             16.你會形容自己是怎樣的學生
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB16-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB16-1" type="radio" name="option16" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option16" value="1">
                                                 頂尖優異
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB16-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB16-2" type="radio" name="option16" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option16" value="2">
                                                 穩扎穩打
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB16-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB16-3" type="radio" name="option16" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input type="radio" name="option16" value="3">
                                                 偷懶、有小聰明
                                             </label>
                                         </li>   
@@ -430,20 +447,20 @@
                                             17.早上起床，你......
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB17-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB17-1" type="radio" name="option17" value="1">
+                                            <label  class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option17" value="1">
                                                 兩眼有神
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB17-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB17-2" type="radio" name="option17" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option17" value="2">
                                                 睡眼惺忪，但還不至於分不清東南西北
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB17-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB17-3" type="radio" name="option17" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option17" value="3">
                                                 迷迷糊糊，眼皮像鉛一樣重
                                             </label>
                                         </li>   
@@ -454,20 +471,20 @@
                                             18.你會如何形容自己走半小時路之後的胃口？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB18-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB18-1" type="radio" name="option18" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option18" value="1">
                                                 非常餓
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB18-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB18-2" type="radio" name="option18" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option18" value="2">
                                                 餓
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB18-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB18-3" type="radio" name="option18" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option18" value="3">
                                                 一點也不餓
                                             </label>
                                         </li>   
@@ -478,20 +495,20 @@
                                             19.你多常出現失眠症狀？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB19-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB19-1" type="radio" name="option19" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option19" value="1">
                                                 很少，只有需要適應新時區時才會
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB19-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB19-2" type="radio" name="option19" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option19" value="2">
                                                 偶爾，日子比較辛苦或壓力太大時才會
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB19-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB19-3" type="radio" name="option19" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option19" value="3">
                                                 長期。一陣一陣出現
                                             </label>
                                         </li>   
@@ -502,20 +519,20 @@
                                             20.你會如何形容對生活的整體滿意程度？
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB20-1" class="pure-radio l-text l-text__left">
-                                                <input id="testB20-1" type="radio" name="option20" value="1">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option20" value="0">
                                                 高
                                             </label>
                                         </li> 
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB20-2" class="pure-radio l-text l-text__left">
-                                                <input id="testB20-2" type="radio" name="option20" value="2">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option20" value="2">
                                                 尚可
                                             </label>
                                         </li>
                                         <li class="l-inputList__item l-inputList__item--line">
-                                            <label for="testB20-3" class="pure-radio l-text l-text__left">
-                                                <input id="testB20-3" type="radio" name="option20" value="3">
+                                            <label class="pure-radio l-text l-text__left">
+                                                <input  type="radio" name="option20" value="4">
                                                 低
                                             </label>
                                         </li>   
@@ -525,7 +542,7 @@
                             </div>
                         </div>
                         
-                        <button type="submit" class="l-btn l-btn__style l-btn__lg l-text">下一步</button>
+                        <button class="l-btn l-btn__style l-btn__lg l-text" onclick="testB()">送出</button>
                     </form>
                 </div>
             </section>
@@ -536,13 +553,13 @@
 
 
     <!-- 尾部 -->
-    <div class="footerPage"></div>
-    
-    <!-- 引用共用頭部、尾部的js -->
-    <script type="text/javascript">
-        $(".headerPage").load("header.html");
-        $(".footerPage").load("footer.html");
-    </script>
+    <footer class="l-footer">
+        <div class="l-wrap">
+            <p class="l-footer__font">
+                Copyright © 2019 Yi-Lin Chen. All rights reserved.
+            </p>
+        </div>
+    </footer>
 
     <!-- JS -->
     <script src="js/all.js"></script>
