@@ -5,29 +5,19 @@
 var boxs = document.getElementById("pure-formA").getElementsByTagName("input");
 var sum = 0;
 
-for(var i=0;i<boxs.length;i++){
-    if(boxs[i].checked){
-        sum += parseInt(boxs[i].value,10);
-    }
-}
-
 function testA(){
-    if(sum >=7 ){
+    for(var i=0;i<boxs.length;i++){
+        if(boxs[i].checked){
+            sum += parseInt(boxs[i].value,10);
+        }
+    };
+    if(sum >=7){
         window.open("http://www.google.com");
+        // alert("大於>7");
     }else{
         window.open("http://www.yahoo.com.tw");
+        // alert("小於<7");
     }
 }
-
-
-
-// function aaa (){
-//     if( 3 == 6/3){
-//         alert("aaa測試成功");
-//     }else{
-//         window.location.assign("HTTP://www.google.com");
-//     }
-    
-// }
 
 
