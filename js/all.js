@@ -1,25 +1,3 @@
-// 引用header、footer
-function templetes(){
-    
-    $.ajax({
-        url: 'https://trista10.github.io/profile//templete/footer.html',
-        success: function(response){
-            $("#hep_footer").html(response);
-        }
-    });
-    
-    $.ajax({
-        url: 'https://trista10.github.io/profile//templete/header.html',
-        success: function(response2){
-            $("#hep_header").html(response2);
-        }
-    });
-    
-    
-}
-
-
-
 // 手機 menu向下展開
 $(document).ready(function() {
     $('.l-nav__showBtn').on('click',  function(e){
