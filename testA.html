@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>你的生理時鐘是哪種類型?測驗第一部分</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body onload="templetes()">
+    <!-- 頭部 -->
+    <div id="hep_header"></div>
+    
+    <!-- 內容 -->
+    <main class="l-container">
+        <section class="l-main">
+            <!-- 背景 -->
+            <div class="l-bg">
+                <div class="l-bg__img"></div>
+            </div>
+
+            <!-- 標題 -->
+            <section class="l-wrap">
+                <h1 class="l-text l-text__title">測驗開始</h1>
+                <p class="l-text l-text__subTitle">經過博士實驗與設計的測驗，來看看你是屬於哪種類型的吧!</p>
+            </section>
+
+            
+
+            <!-- part.1測驗頁 -->
+            <section class="l-wrap">
+                <div class="testA">
+                    <form action="pure-form" id="pure-formA">
+                        <div class="l-card testA__style">
+                            <p class="l-text l-text__subTitle">Part.1 請勾選符合您的敘述</p>
+                            <div class="l-inputList">
+                                <div class="l-inputList__group">
+                                    <p class="l-inputList__item">
+                                        <label for="test01-1" class="pure-checkbox l-text l-text__left">
+                                            <input id="test01-1" name="part01" type="checkbox" value="1">
+                                            一點點聲音或光線就會讓我睡不著或醒來
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item">
+                                        <label class="pure-checkbox l-text l-text__left">
+                                            <input name="part01" type="checkbox" value="1">
+                                            我不怎麼愛吃
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item">
+                                        <label class="pure-checkbox l-text l-text__left">
+                                            <input name="part01" type="checkbox" value="1">
+                                            我通常會在鬧鐘響之前醒來
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item">
+                                        <label class="pure-checkbox l-text l-text__left">
+                                            <input name="part01" type="checkbox" value="1">
+                                            我在飛機上睡不好，就算戴上眼罩、耳塞也一樣
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item">
+                                        <label class="pure-checkbox l-text l-text__left">
+                                            <input name="part01" type="checkbox" value="1">
+                                            我常常因為疲倦而易怒
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item">
+                                        <label class="pure-checkbox l-text l-text__left">
+                                            <input name="part01" type="checkbox" value="1">
+                                            我常過分擔心小細節
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item">
+                                        <label class="pure-checkbox l-text l-text__left">
+                                            <input name="part01" type="checkbox" value="1">
+                                            我曾被醫生診斷出或曾經自我診斷出失眠
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item">
+                                        <label  class="pure-checkbox l-text l-text__left">
+                                            <input  name="part01" type="checkbox" value="1">
+                                            學生時期，成績讓我很焦慮
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item">
+                                        <label  class="pure-checkbox l-text l-text__left">
+                                            <input  name="part01" type="checkbox" value="1">
+                                            我常因為輾轉反思過去發生的事和未來可能發生的事而失眠
+                                        </label>
+                                    </p>
+                                    <p class="l-inputList__item l-inputList__space">
+                                        <label  class="pure-checkbox l-text l-text__left">
+                                            <input  name="part01" type="checkbox" value="1">
+                                            我是完美主義者
+                                        </label>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="l-btn l-btn__style l-btn__lg l-text" onclick="testA()">下一步</button>
+                    </form>
+                </div>
+            </section>
+            
+        </section>
+    </main>
+
+
+    <!-- 尾部 -->
+    <div id="hep_footer">
+    
+    <!-- 引用共用頭部、尾部的js -->
+    <!-- <script type="text/javascript">
+        $(".headerPage").load("header.html");
+        $(".footerPage").load("footer.html");
+    </script> -->
+    
+
+    <!-- JS -->
+    <script src="js/all.js"></script>
+    <!-- 計算JS值 -->
+    <script src="js/test.js"></script>
+</body>
+</html>
