@@ -2,14 +2,14 @@
 function templetes(){
     
     $.ajax({
-        url: '../templete/footer.html',
+        url: 'https://trista10.github.io/profile//templete/footer.html',
         success: function(response){
             $("#hep_footer").html(response);
         }
     });
     
     $.ajax({
-        url: '../templete/header.html',
+        url: 'https://trista10.github.io/profile//templete/header.html',
         success: function(response2){
             $("#hep_header").html(response2);
         }
