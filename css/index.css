@@ -1,0 +1,147 @@
+
+/*========== 首頁 index.html ==========*/
+/* 主視覺KV */
+.KV__img {
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+    @media (min-width: 950px) {
+        .KV__img {
+            width: 75%;
+            margin-left: 12.5%;
+            margin-right: 12.5%;
+        }
+    }
+
+/* 動物選單 */
+.animal {
+    position: relative;
+}
+.animal__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.animal__icon {
+    margin: 15px;
+}
+
+
+
+
+/* 前往動物測驗 */
+.animal__test {
+    padding-bottom: 20px;
+    
+}
+    @media (min-width: 480px) {
+        .animal__flex {
+            flex-direction: row;
+        }
+        .animal__icon {
+            width: 70%;
+        }
+        .animal__word--title {
+            font-size: 1.4rem;
+        }
+    }
+    @media (min-width: 950px) {
+        .animal__item{
+            float: left;
+            width: 48%;
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+    }
+/*========== 關於我 about.html ==========*/
+.about {
+    margin-top: 20px;
+}
+.about__item {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #F5F5F5;
+}
+.about__icon {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about__title {
+    padding-top: 20px;
+}
+.about__content {
+    line-height: 2rem;
+}
+.about__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+    @media (min-width: 950px) {
+        .about__icon {
+            text-align: left;
+            padding-right: 30px;
+            width: 170%;
+        }
+        .about__item {
+            border-bottom: none;
+        }
+        .about__title {
+            padding-top: 0px;
+        }
+        .about__flex {
+            flex-direction: row;
+        }
+    }
+
+/*========== part.1測驗頁 testA.html ==========*/
+.testA{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.testA__style {
+    background: linear-gradient(#ffe45e, #FBBB6B);
+    margin-bottom: 0px;
+}
+
+/*========== part.2測驗頁 testB.html ==========*/
+.testB{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.testB__style {
+    background: linear-gradient(#c1f100, #4CB534);
+    margin-bottom: 0px;
+}
+
+/*========== 結果頁 ==========*/
+.bg__resultTop,
+.bg__resultBottom {
+    display: none;
+}
+
+    @media (min-width: 480px) {
+        .bg__resultTop {
+            display: block;
+            background-image: url(../images/D_bg04.png);
+            height: 800px;
+        }
+        .bg__resultBottom {
+            display: block;
+            background: url(../images/D_bg02.png);
+            height: 850px;
+            background-position-x: 50%;
+            background-position-y: bottom;
+        }
+    }
+    @media (min-width: 950px) {
+        .bg__resultTop {
+            height: 974px;
+        }
+        .bg__resultBottom {
+            height: 949px;
+        }
+    }
