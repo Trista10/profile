@@ -12,10 +12,10 @@ function testA(){
         }
     };
     if(sum >=7){
-        window.open("http://www.google.com");
+        window.open("https://trista10.github.io/profile/dolphin.html");
         // alert("大於>7");
     }else{
-        window.open("http://www.yahoo.com.tw");
+        window.open("https://trista10.github.io/profile/testB.html");
         // alert("小於<7");
     }
 }
