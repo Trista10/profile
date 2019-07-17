@@ -13,9 +13,9 @@ for(var i=0;i<boxs.length;i++){
 
 function testA(){
     if(sum >=7 ){
-        window.location.replace("http://www.google.com");
+        window.location("http://www.google.com");
     }else{
-        window.location.replace("http://www.yahoo.com.tw");
+        window.location("http://www.yahoo.com.tw");
     }
 }
 
