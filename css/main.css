@@ -554,6 +554,7 @@
         }
         .c-navItem__a:hover {
             color: #00cec8;
+            background-color: transparent;
         }
     }
     
