@@ -245,7 +245,7 @@
 .l-inputList__space {
     margin-bottom: 0px;
 }
-.pure-checkbox {
+.pure-checkbox, .pure-radio {
     display: block;
 }
     @media (min-width: 480px) {
