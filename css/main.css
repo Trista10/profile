@@ -192,6 +192,7 @@
     font-size: 1.5rem;
     padding-bottom: 10px;
 }
+
 .l-card__content--title {
     font-weight: 600;
     padding-top: 10px;
@@ -228,8 +229,23 @@
     padding-right: 10px;
     margin-bottom: 8px;
 }
+.l-inputList__item--style {
+    background-color: #fff;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    margin-bottom: 8px;
+    line-height: 20px
+}
 .l-inputList__item--title {
     background-color: #417200;
+    color: #fff;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.l-inputList__item--dolphin {
+    background-color: #00cec8;
     color: #fff;
     margin-bottom: 0px;
     text-align: left;
