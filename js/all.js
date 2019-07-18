@@ -1,10 +1,10 @@
 // 手機 menu向下展開
-$(document).ready(function() {
-    $('.l-nav__showBtn').on('click',  function(e){
-    e.preventDefault();
-    $('.l-nav__link').toggleClass('l-link__showMenu');
-    });
-});
+// $(document).ready(function() {
+//     $('.l-nav__showBtn').on('click',  function(e){
+//     e.preventDefault();
+//     $('.l-nav__link').toggleClass('l-link__showMenu');
+//     });
+// });
 
 
 // gototop 捲軸回上方

@@ -438,6 +438,17 @@
         }
     }
 /* 導航列 */
+.c-navMask {
+    display: none;
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,79,168,.8);
+    overflow: hidden;
+}
 .l-nav {
     position: relative;
 }
