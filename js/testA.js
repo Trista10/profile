@@ -8,9 +8,11 @@ function testA(){
         }
     };
     if(sum >=7){
-        window.open("https://trista10.github.io/profile/dolphin.html");
+        // window.open("https://trista10.github.io/profile/dolphin.html");
+        window.location.assign("https://trista10.github.io/profile/dolphin.html");
     }else if( sum >0 && sum <7){
-        window.open("https://trista10.github.io/profile/testB.html");
+        // window.open("https://trista10.github.io/profile/testB.html");
+        window.location.assign("https://trista10.github.io/profile/testB.html");
     }else if(sum < 1){
         alert("請勾選符合您的敘述");
     }else{
