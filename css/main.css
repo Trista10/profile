@@ -6,6 +6,7 @@
     font-size: 1rem;;
     color: #5E5E5E;
 }
+
 .l-container {
     position: relative;
     overflow: hidden;
@@ -243,6 +244,9 @@
 }
 .l-inputList__space {
     margin-bottom: 0px;
+}
+.pure-checkbox {
+    display: block;
 }
     @media (min-width: 480px) {
         .l-inputList__item {
