@@ -468,6 +468,7 @@
 }
 .c-navItem__a:hover {
     color: #fffb5e;
+    background-color: #00cec8;
 }
 .l-head__hambuger {
     display: block;
