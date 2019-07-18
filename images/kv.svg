@@ -18,7 +18,7 @@
       <stop offset="0.073" stop-color="#00b292"/>
       <stop offset="0.994" stop-color="#018267"/>
     </linearGradient>
-    <radialGradient id="radial-gradient" cx="1127.811" cy="403.201" r="129.848" gradientTransform="translate(-76.134 -21.07) scale(1.093 1.079)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="radial-gradient" cx="1212.929" cy="435.353" r="129.848" gradientTransform="translate(-84.022 -23.605) scale(1.093 1.079)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#7fc517"/>
       <stop offset="1" stop-color="#008245"/>
     </radialGradient>
@@ -73,22 +73,22 @@
       <stop offset="1" stop-color="#c1d802"/>
     </linearGradient>
     <linearGradient id="linear-gradient-16" x1="0.218" y1="0.697" x2="0.936" y2="0.459" xlink:href="#linear-gradient-15"/>
-    <radialGradient id="radial-gradient-3" cx="-2956.927" cy="-2096.885" r="99.478" gradientTransform="translate(-1113.592 -812.709) scale(0.69 0.682)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="radial-gradient-3" cx="-3551.2" cy="-2532.408" r="99.478" gradientTransform="translate(-1297.587 -951.357) scale(0.69 0.682)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#275ddf"/>
       <stop offset="1" stop-color="#2143c8"/>
     </radialGradient>
-    <radialGradient id="radial-gradient-4" cx="-1673.552" cy="-1856.132" r="85.953" gradientTransform="translate(-665.646 -751.641) scale(0.669 0.661)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="radial-gradient-4" cx="-2010.271" cy="-2222.551" r="85.953" gradientTransform="translate(-776.992 -875.911) scale(0.669 0.661)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#bc834d"/>
       <stop offset="0.486" stop-color="#96581e"/>
       <stop offset="0.98" stop-color="#783c14"/>
     </radialGradient>
-    <radialGradient id="radial-gradient-5" cx="-993.982" cy="-350.315" r="66.04" gradientTransform="translate(-234.759 -90.113) scale(0.876 0.865)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="radial-gradient-5" cx="-1327.598" cy="-478.371" r="66.04" gradientTransform="translate(-276.229 -107.45) scale(0.876 0.865)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0082d8"/>
       <stop offset="0.486" stop-color="#3c40bf"/>
       <stop offset="1" stop-color="#00006e"/>
     </radialGradient>
-    <radialGradient id="radial-gradient-6" cx="-3038.638" cy="-2989.442" r="87.525" gradientTransform="translate(-1341.46 -1344.975) scale(0.622 0.614)" xlink:href="#radial-gradient-4"/>
-    <radialGradient id="radial-gradient-7" cx="-1451.346" cy="-3430.08" r="63.765" gradientTransform="matrix(0.755, -0.136, 0.134, 0.745, -19.309, -1281.494)" xlink:href="#radial-gradient-5"/>
+    <radialGradient id="radial-gradient-6" cx="-3615.601" cy="-3562.223" r="87.525" gradientTransform="translate(-1559.653 -1566.092) scale(0.622 0.614)" xlink:href="#radial-gradient-4"/>
+    <radialGradient id="radial-gradient-7" cx="-1822.285" cy="-4059.445" r="63.765" gradientTransform="matrix(0.755, -0.136, 0.134, 0.745, -25.84, -1492.362)" xlink:href="#radial-gradient-5"/>
     <linearGradient id="linear-gradient-17" x1="0.505" y1="-0.074" x2="0.494" y2="0.248" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#3c40bf"/>
       <stop offset="1" stop-color="#00006e"/>
