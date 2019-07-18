@@ -7,6 +7,7 @@
     <title>你的生理時鐘是哪種類型?</title>
     
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -40,14 +41,14 @@
                 <p class="l-text l-text__subTitle l-text__subTitle--color">以下為博士列出的4種動物類型描述，你是哪一種呢？</p>
                 <!-- 動物選單 -->
                 <ul class="animal clearFix">
-                    <li class="l-card animal__flex animal__item">
+                    <li class="l-card animal__flex animal__item" data-aos="fade-up">
                         <div class="animal__icon"><img src="images/icon_dolphin.png" alt=""></div>
                         <div class="animal__word">
                             <h3 class="l-text l-card__content"><span class="l-card__title">海豚型</span><br>現實中的海豚睡覺半邊腦休息，另外半邊警醒。這個稱呼很適合失眠者：聰明、神經質而淺眠、睡眠驅力低。</h3>
                             <a href="dolphin.html" class="l-btn l-btn__right l-btn__style">MORE</a>
                         </div>
                     </li>
-                    <li class="l-card animal__flex animal__item">
+                    <li class="l-card animal__flex animal__item" data-aos="fade-up" data-aos-delay="50">
                         <div class="animal__icon"><img src="images/icon_wolf.png" alt=""></div>
                         <div class="animal__word">
                             <h3 class="l-text l-card__content"><span class="l-card__title">狼型</span><br>現實中的狼總是在夜間出沒獵食，這個稱呼很適合越晚越精神、充滿創意、個性外向、睡眠驅力中等的人。</h3>
@@ -90,6 +91,10 @@
         $(".headerPage").load("templete/header.html");
         $(".footerPage").load("templete/footer.html");
     </script>
-    
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
