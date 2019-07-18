@@ -421,22 +421,7 @@
 
 
 /*---------- header ----------*/
-/* .l-header {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-    @media (min-width: 480px) {
-        .l-header {
-            max-width: 608px;
-        }
-    }
-    @media (min-width: 950px) {
-        .l-header {
-            max-width: 1088px;
-        }
-    } */
+/* 導航列 */
 .l-head {
     padding-top: 10px;
     transition: all .3s;
@@ -507,6 +492,18 @@
     display: none;
 }
 
+.c-menuMask {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(38, 140, 101, 0.8);
+    overflow: hidden;
+}
+
 /* menuOpen控制 */
 .is-menuOpen .l-head__nav {
     display: block;
@@ -549,114 +546,7 @@
         }
     }
     
-/* 導航列 */
-.c-menuMask {
-    display: none;
-    position: fixed;
-    z-index: 200;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color:rgba(38, 140, 101, 0.8);
-    overflow: hidden;
-}
-.l-nav {
-    position: relative;
-}
 
-.l-nav__bg {
-    position: relative;
-}
-.l-nav__bg--style {
-    position: absolute;
-    z-index: -100;
-    bottom: 2px;
-    right: -45px;
-}
-.l-nav__logo {
-    padding: 4px 15px;
-    
-}
-.l-nav__logo--a {
-    background-image: url(../images/M_LOGO.png);
-    /* background-image: url(../images/M_LOGO.svg); */
-    background-repeat: no-repeat;
-    display: block;
-    width: 136px;
-    height: 42px;
-    text-indent: 101%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-.l-nav__link {
-    position: relative;
-    font-size: 1.4rem;
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height 0.7s;
-    background-color: #ffc400;
-}
-.l-nav__link::before {
-    content: " ";
-    display: table;
-}
-
-.l-nav__link--item {
-    list-style-type: none;
-    text-align: center;
-    border-bottom: 1px dashed #5E5E5E;
-}
-.l-nav__link--a {
-    text-decoration: none;
-    display: block;
-    height: 50px;
-    line-height: 50px;
-}
-.l-nav__link--a:hover {
-    background-color: #ffe43a;
-}
-.l-nav__showBtn {
-    position: absolute;
-    top: 13px;
-    right: 15px;
-}
-/* JQ動態加入class */
-.l-link__showMenu {
-    max-height: 105px;
-}
-
-@media (min-width: 480px) {
-    .l-nav {
-        height: 50px;
-    }
-    .l-nav__logo {
-        float: left;
-    }
-    .l-nav__logo--a {
-        background-image: url(../images/M_LOGO.png);
-        /* background-image: url(../images/D_LOGO.svg); */
-        width: 136px;
-        height: 42px;
-    }
-    .l-nav__link {
-        float: right;
-        max-height: 50px;
-        background-color: transparent;
-    }
-    .l-nav__link--a:hover {
-        color:#00cec8;
-        background-color: transparent;
-    }
-    .l-nav__link--item {
-        margin-left: 10px;
-        margin-right: 10px;
-        float: left;
-    }
-    .l-nav__showBtn {
-        display: none;
-    }
-}
 
 
 /*---------- footer ----------*/

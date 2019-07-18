@@ -6,29 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>你的生理時鐘是哪種類型?測驗第二部分</title>
     
-    <link rel="stylesheet" href="https://trista10.github.io/profile/css/reset.css">
-    <link rel="stylesheet" href="https://trista10.github.io/profile/css/main.css">
-    <link rel="stylesheet" href="https://trista10.github.io/profile/css/index.css">
-    <script src="https://trista10.github.io/profile/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
     
 </head>
 <body>
     <!-- 頭部 -->
-    <header>
+    <header class="headerPage">
         <div class="l-container">
-            <div class="l-main l-main__header ">
-                <nav class="l-header">
-                    <div class="l-nav clearFix">
-                        
-                        <h1 class="l-nav__logo"><a class="l-nav__logo--a" href="index.html">Yi-Lin薏琳作品集</a></h1>
-            
-                        <ul class="l-nav__link">
-                            <li class="l-nav__link--item"><a class="l-text l-nav__link--a" href="index.html">首頁</a></li>
-                            <li class="l-nav__link--item"><a class="l-text l-nav__link--a" href="about.html">關於我</a></li>
-                        </ul>
-                        <a href="#" class="l-nav__showBtn"><img src="images/icon_menu.png" alt=""></a>
+            <div class="c-menuMask"></div>
+            <div class="l-main l-main__header">
+                <div class="l-wrap">
+                    <div class="l-head clearFix">
+                        <!-- logo -->
+                        <div class="l-head__logo">
+                            <picture class="is-menuDefault">
+                                <img src="images/logo.png" alt="">
+                            </picture>
+                            <picture class="is-menuClick">
+                                <img src="images/logo_wt.png" alt="">
+                            </picture>
+                        </div>
+                        <!-- 選單項目 -->
+                        <div class="l-head__nav">
+                            <ul class="c-nav">
+                                <li class="c-navItem"><a class="c-navItem__a l-text " href="index.html">首頁</a></li>
+                                <li class="c-navItem"><a class="c-navItem__a l-text " href="about.html">關於我</a></li>
+                            </ul>
+                        </div>
+                        <!-- 右方手機選單按鈕 -->
+                        <div class="l-head__hambuger">
+                            <div class="is-menuDefault">
+                                <a href="#" class="c-iHeader c-iHeader--open"></a>
+                            </div>
+                            <div class="is-menuClick">
+                                <a href="#" class="c-iHeader c-iHeader--close"></a>
+                            </div>
+                        </div>
                     </div>
-                </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -561,8 +579,8 @@
     </footer>
 
     <!-- JS -->
-    <script src="https://trista10.github.io/profile/js/all.js"></script>
+    <script src="js/all.js"></script>
     <!-- 計算JS值 -->
-    <script src="https://trista10.github.io/profile/js/testB.js"></script>
+    <script src="js/testB.js"></script>
 </body>
 </html>
