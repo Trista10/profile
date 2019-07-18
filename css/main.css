@@ -459,6 +459,9 @@
     color:#fff;
     transition: all .3s;
 }
+.c-navItem__a:focus {
+    background-color: #00cec8;
+}
 .c-navItem__a:hover {
     color: #fffb5e;
 }
@@ -543,6 +546,9 @@
         .c-navItem__a {
             font-size: 1.2rem; 
             color: #5E5E5E;
+        }
+        .c-navItem__a:hover {
+            color: #00cec8;
         }
     }
     
