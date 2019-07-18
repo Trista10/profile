@@ -61,15 +61,15 @@
 
             <!-- 標題 -->
             <section class="l-wrap">
-                <h1 class="l-text l-text__title">測驗開始</h1>
-                <p class="l-text l-text__subTitle">經過博士實驗與設計的測驗，來看看你是屬於哪種類型的吧!</p>
+                <h1 class="l-text l-text__title" data-aos="fade-down">測驗開始</h1>
+                <p class="l-text l-text__subTitle" data-aos="fade-down" data-aos-delay="50">經過博士實驗與設計的測驗，來看看你是屬於哪種類型的吧!</p>
             </section>
 
             
 
             <!-- part.1測驗頁 -->
             <section class="l-wrap">
-                <div class="testA">
+                <div class="testA" data-aos="flip-left">
                     <form id="pure-formA">
                         <div class="l-card testA__style">
                             <p class="l-text l-text__subTitle">Part.1 請勾選符合您的敘述</p>
@@ -160,7 +160,12 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        $(function(){
+        AOS.init({
+            once: false,
+            duration: 1000,
+            });
+        })
     </script>
     <!-- JS -->
     <script src="js/all.js"></script>

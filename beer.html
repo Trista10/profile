@@ -26,9 +26,9 @@
             <a name="home"></a>
             <section class="l-wrap">
                 <!-- 標題 -->
-                <h1 class="l-text l-text__title">測驗結果</h1>
-                <p class="l-text l-text__subTitle">你的生理時鐘是<span class="l-text__lg">熊</span>型</p>
-                <div class="l-img__space"><img src="images/pic_beer.png" alt=""></div>
+                <h1 class="l-text l-text__title" data-aos="fade-down">測驗結果</h1>
+                <p class="l-text l-text__subTitle" data-aos="fade-down" data-aos-delay="50">你的生理時鐘是<span class="l-text__lg">熊</span>型</p>
+                <div class="l-img__space" data-aos="zoom-in-up" data-aos-delay="100"><img src="images/pic_beer.png" alt=""></div>
             </section>
 
             <section class="l-wrap l-wrap--none">
@@ -136,7 +136,12 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        $(function(){
+        AOS.init({
+            // once: false,
+            duration: 1000,
+            });
+        })
     </script>
 </body>
 </html>

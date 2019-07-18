@@ -460,7 +460,7 @@
     transition: all .3s;
 }
 .c-navItem__a:hover {
-    color: #ff7300;
+    color: #fffb5e;
 }
 .l-head__hambuger {
     display: block;
@@ -500,7 +500,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color:rgba(38, 140, 101, 0.8);
+    background-color:rgba(14, 69, 71, 0.9);
     overflow: hidden;
 }
 
