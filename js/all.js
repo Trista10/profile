@@ -1,10 +1,10 @@
-// 手機 menu向下展開
-// $(document).ready(function() {
-//     $('.l-nav__showBtn').on('click',  function(e){
-//     e.preventDefault();
-//     $('.l-nav__link').toggleClass('l-link__showMenu');
-//     });
-// });
+// 點擊手機 menu展開
+$(document).ready(function() {
+    $('.l-head__hambuger').on('click',  function(e){
+    e.preventDefault();
+    $('.headerPage').toggleClass('is-menuOpen');
+    });
+});
 
 
 // gototop 捲軸回上方

@@ -1,21 +1,36 @@
 <header>
     <div class="l-container">
-        <div class="c-navMask"></div>
+        <div class="c-menuMask"></div>
         <div class="l-main l-main__header">
-            <nav class="l-header">
-                <div class="l-nav clearFix">
-                    
-                    <h1 class="l-nav__logo">
-                        <a class="l-nav__logo--a" href="index.html">Yi-Lin薏琳作品集</a>
-                    </h1>
-        
-                    <ul class="l-nav__link">
-                        <li class="l-nav__link--item"><a class="l-text l-nav__link--a" href="index.html">首頁</a></li>
-                        <li class="l-nav__link--item"><a class="l-text l-nav__link--a" href="about.html">關於我</a></li>
-                    </ul>
-                    <a href="#" class="l-nav__showBtn"><img src="images/icon_menu.png" alt=""></a>
+            <div class="l-wrap">
+                <div class="l-head clearFix">
+                    <div class="l-head__logo">
+                        <picture class="is-menuDefault">
+                            <img src="../images/logo.png" alt="">
+                        </picture>
+                        <picture class="is-menuClick">
+                            <img src="../images/logo_wt.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="l-head__nav">
+                        <ul class="c-nav">
+                            <li class="c-navItem"><a class="c-navItem__a l-text " href="index.html">首頁</a></li>
+                            <li class="c-navItem"><a class="c-navItem__a l-text " href="about.html">關於我</a></li>
+                        </ul>
+                    </div>
+                    <div class="l-head__hambuger">
+                        <div class="is-menuDefault">
+                            <a href="#" class="c-iHeader c-iHeader--open"></a>
+                        </div>
+                        <div class="is-menuClick">
+                            <a href="#" class="c-iHeader c-iHeader--close"></a>
+                        </div>
+                    </div>
                 </div>
-            </nav>
+            </div>
         </div>
     </div>
 </header>
+
+
+

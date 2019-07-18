@@ -421,7 +421,7 @@
 
 
 /*---------- header ----------*/
-.l-header {
+/* .l-header {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -436,17 +436,129 @@
         .l-header {
             max-width: 1088px;
         }
-    }
-/* 導航列 */
-.c-navMask {
+    } */
+.l-head {
+    padding-top: 10px;
+    transition: all .3s;
+}
+.l-head:after, .l-head:before {
+    content: " ";
+    display: table;
+}
+.l-head__logo {
+    float: left;
+}
+.l-head__nav {
+    float: right;
     display: none;
     position: fixed;
-    z-index: 500;
+    z-index: 300;
+    top: 95px;
+    left: 0;
+    width: 100%;
+    transition: all .5s;
+}
+.c-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.c-navItem {
+    border-bottom: 1px dashed #fff;
+}
+.c-navItem__a {
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 20px; 
+    color:#fff;
+    transition: all .3s;
+}
+.c-navItem__a:hover {
+    color: #ff7300;
+}
+.l-head__hambuger {
+    display: block;
+    float: right;
+    padding: 15px 0;
+}
+.c-iHeader {
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-iHeader {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    display: inline-block;
+    
+}
+.c-iHeader--open {
+    background-image: url("../images/icon_menu.svg");
+    background-image: url("../images/icon_menu.png");
+}
+.c-iHeader--close {
+    background-image: url("../images/icon_menuClose.svg");
+}
+.is-menuDefault {
+    display: block;
+}
+.is-menuClick {
+    display: none;
+}
+
+/* menuOpen控制 */
+.is-menuOpen .l-head__nav {
+    display: block;
+    opacity: 1;
+}
+.is-menuOpen .c-menuMask {
+    display: block;
+}
+.is-menuOpen .is-menuDefault {
+    display: none;
+}
+.is-menuOpen .is-menuClick {
+    display: block;
+    z-index: 300;
+    position: relative;
+}
+    @media (min-width: 950px) {
+        .l-head__hambuger {
+            display: none;
+        }
+        .l-head__nav {
+            display: block;
+            position: relative;
+            top:0px;
+            right: 0px;
+            width: auto;
+        }
+        
+        .c-nav {
+            display: flex;
+            padding-top: 5px;
+        }
+        .c-navItem {
+            border-bottom: none;
+            padding: 0 10px;
+        }
+        .c-navItem__a {
+            font-size: 1.2rem; 
+            color: #5E5E5E;
+        }
+    }
+    
+/* 導航列 */
+.c-menuMask {
+    display: none;
+    position: fixed;
+    z-index: 200;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0,79,168,.8);
+    background-color:rgba(38, 140, 101, 0.8);
     overflow: hidden;
 }
 .l-nav {
