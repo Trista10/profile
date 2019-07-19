@@ -118,6 +118,8 @@
         .l-bg__img {
             height: 730px;
         }
+    }
+    @media (min-width: 950px){
         .l-img__space {
             width: 70%;
             margin-left: 15%;
