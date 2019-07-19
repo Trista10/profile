@@ -572,6 +572,9 @@
             color: #00cec8;
             background-color: transparent;
         }
+        .c-navItem__a:focus {
+            background-color:transparent;
+        }
     }
     
 
