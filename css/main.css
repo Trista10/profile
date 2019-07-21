@@ -2,7 +2,7 @@
 /*---------- 範圍設定 ----------*/
 * {
     box-sizing: border-box;
-    font-family: "Segoe UI","微軟正黑體",sans-serif;
+    font-family: "微軟正黑體","Segoe UI",sans-serif;
     font-size: 1rem;;
     color: #5E5E5E;
 }
