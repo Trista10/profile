@@ -9,10 +9,10 @@ function testA(){
     };
     if(sum >=7){
         window.open("https://trista10.github.io/profile01/profile01/dolphin.html");
-        // window.location("https://trista10.github.io/profile/dolphin.html"); GITHUB無法使用
+        // window.location("https://trista10.github.io/profile01/profile01/dolphin.html"); GITHUB無法使用
     }else if( sum >0 && sum <7){
         window.open("https://trista10.github.io/profile01/profile01/testB.html");
-        // window.location("https://trista10.github.io/profile/testB.html"); GITHUB無法使用
+        // window.location("https://trista10.github.io/profile01/profile01/testB.html"); GITHUB無法使用
     }else if(sum < 1){
         alert("請勾選符合您的敘述");
     }else{
