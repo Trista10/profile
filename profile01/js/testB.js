@@ -8,11 +8,11 @@ function testB(){
         }
     };
     if(sumB >= 19 && sumB <= 32){
-        window.open("https://trista10.github.io/profile/lion.html");
+        window.open("https://trista10.github.io/profile01/profile01/lion.html");
     }else if(sumB >= 33 && sumB <= 47){
-        window.open("https://trista10.github.io/profile/beer.html");
+        window.open("https://trista10.github.io/profile01/profile01/beer.html");
     }else if(sumB >= 48 && sumB <= 61){
-        window.open("https://trista10.github.io/profile/wolf.html");
+        window.open("https://trista10.github.io/profile01/profile01/wolf.html");
     }else{
         alert("請填寫完整才能透過測驗得知您的類型唷！");
     }
