@@ -224,6 +224,9 @@
     }
 
 /* inputList 選單項目 */
+label {
+    cursor: pointer;
+}
 .l-inputList {
     margin-left: auto;
     margin-right: auto;
