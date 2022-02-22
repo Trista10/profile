@@ -134,8 +134,7 @@
 .l-text {
     font-size: 1rem;
     line-height: 1.5rem;
-    text-align: center;
-    cursor: pointer;
+    text-align: center; 
 }
 .l-text__left {
     text-align: left;
